@@ -1,2 +1,27 @@
-# Stress-Detection-using-ML-and-Image-Processing-Techniques
-The main motive of our project is to detect stress in the IT professionals using vivid Machine learning and Image processing techniques. Our system is an upgraded version of the old stress detection systems which excluded the live detection and the personal counseling but this system comprises of live detection and periodic analysis of employees and detecting physical as well as mental stress levels in his/her by providing them with proper remedies for managing stress by providing survey form periodically. Our system mainly focuses on managing stress and making the working environment healthy and spontaneous for the employees and to get the best out of them during working hours. The proposed System Machine Learning algorithms like KNN classifiers are applied to classify stress. Image Processing is used at the initial stage for detection, the employee’s image is given by the browser which serves as input. In order to get an enhanced image or to extract some useful information from it image processing is used by converting image into digital form and performing some operations on it. By taking input as an image and output may be image or characteristics associated with that images. The emotion are displayed on the rounder box. The stress level indicating by Angry, Disgusted, Fearful, Sad.
+🧠 Stress Detection using Machine Learning & Image Processing
+
+This project aims to detect human stress levels using a combination of machine learning and image processing techniques. By analyzing facial features and expressions from real-time or static images, the system classifies the stress level of an individual, offering a non-invasive, automated approach to stress detection.
+
+
+🔍 Key Features
+
+Facial Image Processing: Detects and extracts key facial landmarks from input images or live webcam feed.
+Emotion Analysis: Utilizes facial emotion recognition to interpret stress-indicative expressions.
+Machine Learning Model: Trained on labeled datasets to classify stress as stressed or not stressed.
+Real-Time Detection: Optionally supports real-time stress detection via webcam.
+
+
+🛠 Technologies Used
+
+Python
+OpenCV
+scikit-learn / TensorFlow / Keras (based on your model)
+dlib / mediapipe / face_recognition (for facial landmarks)
+NumPy, pandas, matplotlib
+
+📌 Applications
+
+Mental health monitoring systems
+Workplace stress assessment
+Human-computer interaction
+Educational and clinical research
